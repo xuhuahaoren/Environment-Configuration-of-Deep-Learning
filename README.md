@@ -5,7 +5,7 @@ Xuhua Dong
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Environment Setup 1 (with GPUs)
 0. Check whether you GPU has [Compute Capability 3.0 or higher](https://developer.nvidia.com/cuda-gpus). If not, please refer either [Environment Setup 2 (with CPUs)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-2-with-cpus) or [Environment Setup 3 (with GPU Tesla K80 + Google Colab)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-3-with-gpu-tesla-k80--google-colab)
 1. Download and install [CUDA® Toolkit 9.2 or higher](https://developer.nvidia.com/cuda-downloads)
-2. Download [cuDNN v7.1 or higher](https://developer.nvidia.com/cudnn) (the cuDNN must match the CUDA), extract downloaded file, copy `bin`, `include`, and `lib` folders to `%ProgramFiles%\NVIDIA GPU Computing Toolkit\CUDA\v8.0`
+2. Download [cuDNN v7.1 or higher](https://developer.nvidia.com/cudnn) (the cuDNN must match the CUDA), extract downloaded file, copy `bin`, `include`, and `lib` folders to `%ProgramFiles%\NVIDIA GPU Computing Toolkit\CUDA\v9.2`
 3. You should restart your computer to apply system’s changes
 4. Download and install [Anaconda 4.2.0 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
 5. Open Command Prompt as Administrator
@@ -30,8 +30,9 @@ A **_free of charge_** way to experience training deep models with high-performa
 
 
 ## Usage
-1. Download `.ipynb` files to your computer. For example, `D:\dl`
-2. Open Command Prompt, type `cd /d D:\dl`
-3. Enter `jupyter notebook`
-4. `Jupyter IDE` will be opened in a web browser, open one of the downloaded programs
-5. Select menu `Cell` > `Run All` to run the program
+1. Use Anaconda Navigator or Windows CMD (`conda create --name <environment name> python=<python version>`) to create new environment for different deep learning frame.
+2. Download `.ipynb` files to your computer. For example, `D:\dl`
+3. Open Command Prompt and activate your enviroment (using `activate <enviroment name>`). Then, type `cd /d D:\dl`
+4. Enter `jupyter notebook`
+5. `Jupyter IDE` will be opened in a web browser, open one of the downloaded programs
+6. Select menu `Cell` > `Run All` to run the program
