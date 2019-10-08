@@ -19,7 +19,7 @@ Xuhua Dong
 4. Enter `conda install -c conda-forge keras` to install Keras
 
 ## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Environment Setup 3 (with GPU Tesla K80 + Google Colab)
-A **_free of charge_** way to experience training deep models with high-performance GPU!
+  A **_free of charge_** way to experience training deep models with high-performance GPU!
 1. Visit [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
 2. Sign in with you personal Google account
 3. Menu `File` > `New Python 3 notebook`
