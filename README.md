@@ -3,8 +3,8 @@
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Environment Setup 1 (with GPUs)
 0. Check whether you GPU has [Compute Capability 3.0 or higher](https://developer.nvidia.com/cuda-gpus). If not, please refer either [Environment Setup 2 (with CPUs)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-2-with-cpus) or [Environment Setup 3 (with GPU Tesla K80 + Google Colab)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-3-with-gpu-tesla-k80--google-colab)
-1. Download and install [CUDA® Toolkit 8.0](https://developer.nvidia.com/cuda-downloads)
-2. Download [cuDNN v5.1](https://developer.nvidia.com/cudnn), extract downloaded file, copy `bin`, `include`, and `lib` folders to `%ProgramFiles%\NVIDIA GPU Computing Toolkit\CUDA\v8.0`
+1. Download and install [CUDA® Toolkit 9.2 or higher](https://developer.nvidia.com/cuda-downloads)
+2. Download [cuDNN v7.1 or higher](https://developer.nvidia.com/cudnn) (the cuDNN must match the CUDA), extract downloaded file, copy `bin`, `include`, and `lib` folders to `%ProgramFiles%\NVIDIA GPU Computing Toolkit\CUDA\v8.0`
 3. You should restart your computer to apply system’s changes
 4. Download and install [Anaconda 4.2.0 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
 5. Open Command Prompt as Administrator
