@@ -30,7 +30,7 @@ A **_free of charge_** way to experience training deep models with high-performa
 
 
 ## Usage
-1. Use Anaconda Navigator or Windows CMD (`conda create --name <environment name> python=<python version>`) to create new environment for different deep learning frame.
+1. Use Anaconda Navigator or Windows Command Prompt (`conda create --name <environment name> python=<python version>`) to create new environment for different deep learning frame.
 2. Download `.ipynb` files to your computer. For example, `D:\dl`
 3. Open Command Prompt and activate your enviroment (using `activate <enviroment name>`). Then, type `cd /d D:\dl`
 4. Enter `jupyter notebook`
