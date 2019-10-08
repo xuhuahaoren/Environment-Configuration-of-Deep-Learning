@@ -1,5 +1,6 @@
 # Environment Configuration of Deep Learning
 
+Xuhua Dong
 
 ## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Environment Setup 1 (with GPUs)
 0. Check whether you GPU has [Compute Capability 3.0 or higher](https://developer.nvidia.com/cuda-gpus). If not, please refer either [Environment Setup 2 (with CPUs)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-2-with-cpus) or [Environment Setup 3 (with GPU Tesla K80 + Google Colab)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-3-with-gpu-tesla-k80--google-colab)
