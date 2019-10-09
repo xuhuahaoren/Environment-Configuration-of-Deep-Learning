@@ -27,9 +27,6 @@ Xuhua Dong
 (Note that python source codes will be saved in your Google Drive, and a work shift lasts for 12 hours)  
 5. Let's get started with [this Jupyter Notebook](https://github.com/nhduong/intro_deep/blob/master/examples/colab_getting_started.ipynb) (how to use GPU, execute Linux commands, install Python packages, and read data from Google Drive)
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) OpenCV
-1. 
-
 ## Usage
 1. Use Anaconda Navigator or Windows Command Prompt (`conda create --name <environment name> python=<python version>`) to create new environment for different deep learning frame.
 2. Download `.ipynb` files to your computer. For example, `D:\dl`
@@ -44,3 +41,7 @@ Xuhua Dong
 
 ## Tensorflow
 [Tensorflow 教程](http://www.tensorfly.cn/tfdoc/tutorials/overview.html)
+
+## OpenCV
+1. 
+
