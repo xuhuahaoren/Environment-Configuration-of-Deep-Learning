@@ -36,3 +36,10 @@ Xuhua Dong
 4. Enter `jupyter notebook`
 5. `Jupyter IDE` will be opened in a web browser, open one of the downloaded programs
 6. Select menu `Cell` > `Run All` to run the program
+
+## Keras
+[Keras Documention](https://keras.io)
+[Keras Documention 中文版](https://keras.io/zh/)
+
+## Tensorflow
+[Tensorflow 教程](http://www.tensorfly.cn/tfdoc/tutorials/overview.html)
