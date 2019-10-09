@@ -43,5 +43,6 @@ Xuhua Dong
 [Tensorflow 教程](http://www.tensorfly.cn/tfdoc/tutorials/overview.html)
 
 ## OpenCV
-1. 
+1. [OpenCV3.0(or higher) + Contrib](https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy)
+2. Open Command Prompt and go to the filepath of OpenCV Package. Then, `pip install <OpenCV package name>`
 
