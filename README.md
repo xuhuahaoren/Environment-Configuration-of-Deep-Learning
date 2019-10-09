@@ -10,7 +10,7 @@ Xuhua Dong
 4. Download and install [Anaconda 4.2.0 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
 5. Open Command Prompt as Administrator
 6. Install `TensorFlow-GPU` by entering `conda install -c anaconda tensorflow-gpu` (or install the `tensorflow-gpu` in Anaconda Navigator)
-7. Enter `conda install -c anaconda keras-gpu` to install Keras-GPU (or install the `keras-GPU` in Anaconda Navigotor)
+7. Enter `conda install -c anaconda keras-gpu` to install Keras-GPU (or install the `keras-gpu` in Anaconda Navigotor)
 
 ## ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Environment Setup 2 (with CPUs)
 1. Download and install [Anaconda 4.2.0 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
