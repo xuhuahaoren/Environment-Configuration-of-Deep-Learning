@@ -34,7 +34,7 @@ Xuhua Dong
 4. Enter `jupyter notebook`
 5. `Jupyter IDE` will be opened in a web browser, open one of the downloaded programs
 6. Select menu `Cell` > `Run All` to run the program
-7. other IDE (rerecommend) [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
+7. other IDE (rerecommend): [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 ## Keras
 [Keras Documention](https://keras.io)  
