@@ -7,13 +7,13 @@ Xuhua Dong
 1. Download and install [CUDA® Toolkit 9.2 or higher](https://developer.nvidia.com/cuda-downloads)
 2. Download [cuDNN v7.1 or higher](https://developer.nvidia.com/cudnn) (the cuDNN must match the CUDA), extract downloaded file, copy `bin`, `include`, and `lib` folders to `%ProgramFiles%\NVIDIA GPU Computing Toolkit\CUDA\v9.2`
 3. You should restart your computer to apply system’s changes
-4. Download and install [Anaconda 4.2.0 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
+4. Download and install [Anaconda3-2019.03 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-2019.03-Windows-x86_64.exe)
 5. Open Command Prompt as Administrator
 6. Install `TensorFlow-GPU` by entering `conda install -c anaconda tensorflow-gpu` (or install the `tensorflow-gpu` in Anaconda Navigator)
 7. Enter `conda install -c anaconda keras-gpu` to install Keras-GPU (or install the `keras-gpu` in Anaconda Navigotor)
 
 ## ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Environment Setup 2 (with CPUs)
-1. Download and install [Anaconda 4.2.0 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
+1. Download and install [Anaconda3-2019.03 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-2019.03-Windows-x86_64.exe)
 2. Open Command Prompt as Administrator
 3. Install `TensorFlow` by entering `conda install -c conda-forge tensorflow` (or install `tensorflow` in Anaconda Navigator)
 4. Enter `conda install -c conda-forge keras` to install Keras (or install `keras` in Anaconda Navigator)
