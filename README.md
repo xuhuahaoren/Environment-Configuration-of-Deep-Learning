@@ -28,12 +28,13 @@ Xuhua Dong
 5. Let's get started with [this Jupyter Notebook](https://github.com/nhduong/intro_deep/blob/master/examples/colab_getting_started.ipynb) (how to use GPU, execute Linux commands, install Python packages, and read data from Google Drive)
 
 ## Usage
-1. Use Anaconda Navigator or Windows Command Prompt (`conda create --name <environment name> python=<python version>`) to create new environment for different deep learning frame.
+1. Use Anaconda Navigator or Windows Command Prompt (`conda create --name <environment name> python=<python version>`) to create new environment for different deep learning frame. And install the jupyter in new environment.
 2. Download `.ipynb` files to your computer. For example, `D:\dl`
 3. Open Command Prompt and activate your enviroment (using `activate <enviroment name>`). Then, type `cd /d D:\dl`
 4. Enter `jupyter notebook`
 5. `Jupyter IDE` will be opened in a web browser, open one of the downloaded programs
 6. Select menu `Cell` > `Run All` to run the program
+7. other IDE (rerecommend) [Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 
 ## Keras
 [Keras Documention](https://keras.io)  
