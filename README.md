@@ -2,7 +2,7 @@
 
 Xuhua Dong
 
-## ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Environment Setup 1 (with GPUs)
+## Environment Setup 1 (with GPUs)
 0. Check whether you GPU has [Compute Capability 3.0 or higher](https://developer.nvidia.com/cuda-gpus). If not, please refer either [Environment Setup 2 (with CPUs)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-2-with-cpus) or [Environment Setup 3 (with GPU Tesla K80 + Google Colab)](https://github.com/xuhuahaoren/Environment-Configuration-of-Deep-Learning#-environment-setup-3-with-gpu-tesla-k80--google-colab)
 1. Download and install [CUDA® Toolkit 9.2 or higher](https://developer.nvidia.com/cuda-downloads)
 2. Download [cuDNN v7.1 or higher](https://developer.nvidia.com/cudnn) (the cuDNN must match the CUDA), extract downloaded file, copy `bin`, `include`, and `lib` folders to `%ProgramFiles%\NVIDIA GPU Computing Toolkit\CUDA\v9.2`
@@ -12,13 +12,13 @@ Xuhua Dong
 6. Install `TensorFlow-GPU` by entering `conda install -c anaconda tensorflow-gpu` (or install the `tensorflow-gpu` in Anaconda Navigator)
 7. Enter `conda install -c anaconda keras-gpu` to install Keras-GPU (or install the `keras-gpu` in Anaconda Navigotor)
 
-## ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) Environment Setup 2 (with CPUs)
+## Environment Setup 2 (with CPUs)
 1. Download and install [Anaconda3](https://repo.continuum.io/archive/): [Anaconda3-2019.03 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-2019.03-Windows-x86_64.exe)
 2. Open Command Prompt as Administrator
 3. Install `TensorFlow` by entering `conda install -c conda-forge tensorflow` (or install `tensorflow` in Anaconda Navigator)
 4. Enter `conda install -c conda-forge keras` to install Keras (or install `keras` in Anaconda Navigator)
 
-## ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) Environment Setup 3 (with GPU Tesla K80 + Google Colab)
+## Environment Setup 3 (with GPU Tesla K80 + Google Colab)
   A **_free of charge_** way to experience training deep models with high-performance GPU!
 1. Visit [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
 2. Sign in with you personal Google account
